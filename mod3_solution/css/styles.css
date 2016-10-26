@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+  background-color: #c9977c;
+  font-family: verdana;
+  font-size: 14px;
+}
+
+h1{
+  font-size: 18px;
+  margin: 0;
+  color: green;
+}
+
+h2{
+  font-size: 18px;
+  text-align: center;
+}
+
+h3{
+  color: #c9977c;
+  text-align: center;
+  font-size: 16px;
+
+}
+
+#main-button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-color: #438699;
+    background-color: #3b3b3b;
+}
+
+.navbar{
+  background-color:#b97b59; 
+}
+
+.navbar-default , .navbar-colllapse{
+  border-radius: 0;
+  border:0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+    color: #555;
+    background-color: #c9977c;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #b97b59;
+}
+
+.navbar-collapse {
+  padding-right:0; 
+  padding-left:0;
+}
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 20px;
+    text-align: center;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border:1.5px solid #fff;
+}
+
+.navbar-toggle {
+  background-color: yellow;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: green;
+}
+
+section{
+  border:4px solid black;
+  margin:30px;
+}
+
+#box1{
+  background-color: #3c3c3c;
+}
+
+p{
+margin:30px 15px 15px 15px;
+ color: #c9977c;
+}
+
+
+
+@media (min-width: 767px){
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    visibility: hidden;
+
+}
