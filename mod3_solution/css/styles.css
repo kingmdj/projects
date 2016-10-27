@@ -27,17 +27,17 @@ h3{
 
 }
 
-#main-button {
-    margin-top: 18px;
-    margin-bottom: 18px;
-    border-color: #438699;
-    background-color: #3b3b3b;
-}
 
 .navbar{
   background-color:#b97b59; 
 }
-
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px 15px 30px;
+    font-size: 18px;
+    line-height: 20px;
+}
 .navbar-default , .navbar-colllapse{
   border-radius: 0;
   border:0;
@@ -51,10 +51,14 @@ h3{
 .navbar-default .navbar-nav>.active>a:hover {
   background-color: #b97b59;
 }
+.navbar-collapse.in {
+    overflow-y: visible;
+}
 
 .navbar-collapse {
   padding-right:0; 
   padding-left:0;
+  overflow-y: visible;
 }
 
 .navbar-nav {
